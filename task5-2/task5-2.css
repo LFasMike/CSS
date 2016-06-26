@@ -1,0 +1,176 @@
+
+html{
+	min-width: 22.5rem;
+	height: 100%;
+	font-size: 100%;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+#wrap{
+	margin:0 auto;
+	max-width: 45rem; 
+}
+img{
+	max-width: 100%;
+}
+.header{
+	background-color: #5fc0cd;
+	position: relative;
+	width: 100%;
+	height: 4rem;
+	overflow: auto;
+}
+	.header-left{
+		position: absolute;
+		top: 12.5%;
+		left: 30%;
+		background-color: #55a8b3;
+		width: 40%;
+		line-height: 3rem;
+		border-radius: 0.5rem;
+	}
+	.header-left p{
+		color: #fff;
+		font-size: 1.5rem;
+		text-indent: 13%;
+	}
+	.header-right{
+		position: absolute;
+		top: 12.5%;
+		left: 50%;
+		width: 20%;
+		background-color: #fff;
+		line-height: 3rem;
+		border-radius: 0.5rem;
+	}
+	.header-right p{
+		color: #5fc0cd;
+		text-align: center;
+		font-size: 1.5rem;
+	}
+	.header-img{
+		position: absolute;
+		top: 20%;
+		right: 4%;
+		width: 6%;
+	}
+.main{
+	width: 100%;
+	overflow: auto;
+}
+	.main-top{
+		color: #afbac0;
+		text-align: center;
+		overflow: hidden;
+		border-bottom: 0.1rem solid;
+	}
+		.main-top p{
+			float: left;
+			margin: 1rem 0;
+			font-size: 1.5rem;
+			width: 33%;
+		}
+		.main-top p img{
+			padding-left: 20%;
+			width: 7%;
+		}
+	.main-body{
+		width: 100%;
+		overflow: auto;
+	}
+		.main-body-style{
+			float: left;
+			padding-left: 5%;
+			width: 95%;
+			font-size: 1rem;
+			border-bottom: 0.1rem solid #afbac0;
+			overflow: auto;
+		}
+		.main-body-style p{
+			margin-top: 0.5rem;
+			margin-bottom: 0.5rem;
+			width: 95%;
+			color: #afbac0;
+		}
+		.main-body-style img{
+			width: 2%;
+		}
+		.price{
+			font-size: 1rem;
+			font-weight: bold;
+			margin-left: 3.2%;
+		}
+		.price-date{
+			color: #333;
+		}
+		.price-time{
+			float: right;
+			margin-right: 2%;
+			color: #e63b0e;
+		}
+		.price img{
+			float: right;
+			margin-right: 2%;
+			width: 1.5%;
+		}
+.footer{
+		position: fixed;
+		text-align: center;
+		bottom: 0;
+		width: 100%;
+		max-width: 45rem; 
+		height: 5.2rem;
+		background-color: #f8fafb;
+		overflow: auto;
+}
+	.footer ul{
+	list-style: none;
+	}
+		.home{
+			float: left;
+			margin-top: 1rem;
+			width: 40%
+		}
+		.home img{
+			width: 15%;
+		}
+		.home p{
+			padding-top: 0.2rem;
+			color: #5fc0cd;
+		}
+		.write{
+			float: left;
+			width: 20%;
+			text-align: center;
+		}
+		.write-box{
+			margin-top: 0.5rem;
+			width: 4rem;
+			height: 4rem;
+			border-radius: 50%;
+			background-color: #5fc0cd;
+			display: inline-block;
+		}
+		.write-box img{
+			margin: 25%;
+			width: 50%;
+		}
+		.mine{
+			float: right;
+			margin-top: 1rem;
+			width: 40%;
+		}
+		.mine img{
+			width: 15%;
+		}
+		.mine p{
+			padding-top: 0.2rem;
+			color: #d4d5d6;
+		}
+@media screen and (max-width: 500px){
+    html {
+        font-size: 50%;
+    }
+}
