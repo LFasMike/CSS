@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>task6-1：投票</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" type="text/css" href="task6-1.css">
+</head>
+<body>
+	<div id="wrap">
+		<div class="header">
+			<img class="header-left" src="images\menu.png">
+			<h2>投票</h2>
+			<img class="header-right" src="images\exit.png">
+		</div>
+		<div class="body-top">
+			<p>发言讨论结束，大家请投票</p>
+			<audio src="caifuziyou.mp3" controls="controls" preload id="music" hidden>
+            </audio>
+            <button id="a" onclick="a();">
+				<img src="images\start.png">
+			</button>
+			<script>
+				function a() {
+					var audio = document.getElementById('music')
+					if (audio.paused) {
+						audio.play();
+						}
+					else{
+						audio.pause();
+					}
+				}
+			</script>
+		</div>
+		<div class="body-main">
+			<div class="body-main-triangle">
+			</div>
+			<p class="body-main-p">点击得票数最多人的头像</p>
+			<div class="body-main-box">
+				<div class="body-main-top">
+					<p class="main-box1-name">水民</p>
+					<p class="main-box1-num">1号</p>
+				</div>
+				<ul class="choice">
+					<li class="choice-1"></li>
+					<li class="choice-2"></li>
+					<li class="choice-3"></li>
+					<li class="choice-4"></li>
+				</ul>
+			</div>
+			<div class="body-main-box">
+				<div class="body-main-top">
+					<p class="main-box1-name">水民</p>
+					<p class="main-box1-num">2号</p>
+				</div>
+				<ul class="choice">	
+					<li class="choice-1"></li>
+					<li class="choice-2"></li>
+					<li class="choice-3"></li>
+					<li class="choice-4"></li>
+				</ul>
+			</div>
+			<div class="body-main-box">
+				<div class="body-main-top">
+					<p class="main-box1-name">警察</p>
+					<p class="main-box1-num">3号</p>
+				</div>
+				<ul class="choice">
+					<li class="choice-1"></li>
+					<li class="choice-2"></li>
+					<li class="choice-3"></li>
+					<li class="choice-4"></li>
+				</ul>
+			</div>
+			<div class="body-main-box">
+				<div class="body-main-top">
+					<p class="main-box1-name">法官</p>
+					<p class="main-box1-num">4号</p>
+				</div>
+				<ul class="choice">
+					<li class="choice-1"></li>
+					<li class="choice-2"></li>
+					<li class="choice-3"></li>
+					<li class="choice-4"></li>
+				</ul>
+			</div>
+			<div class="body-main-box">
+				<div class="body-main-top">
+					<p class="main-box1-name">狙击手</p>
+					<p class="main-box1-num">5号</p>
+				</div>
+				<ul class="choice">
+					<li class="choice-1"></li>
+					<li class="choice-2"></li>
+					<li class="choice-3"></li>
+					<li class="choice-4"></li>
+				</ul>
+			</div>
+			<div class="body-main-box">
+				<div class="body-main-top">
+					<p class="main-box1-name">医生</p>
+					<p class="main-box1-num">6号</p>
+				</div>
+				<ul class="choice">
+					<li class="choice-1"></li>
+					<li class="choice-2"></li>
+					<li class="choice-3"></li>
+					<li class="choice-4"></li>
+				</ul>
+			</div>
+			<div class="body-main-box">
+				<div class="body-main-top">
+					<p class="main-box1-name">杀手</p>
+					<p class="main-box1-num">7号</p>
+				</div>
+				<ul class="choice">
+					<li class="choice-1"></li>
+					<li class="choice-2"></li>
+					<li class="choice-3"></li>
+					<li class="choice-4"></li>
+				</ul>
+			</div>
+			<div class="body-main-box">
+				<div class="body-main-top">
+					<p class="main-box1-name">水民</p>
+					<p class="main-box1-num">8号</p>
+				</div>
+				<ul class="choice">
+					<li class="choice-1"></li>
+					<li class="choice-2"></li>
+					<li class="choice-3"></li>
+					<li class="choice-4"></li>
+				</ul>
+			</div>
+			<div class="body-main-box">
+				<div class="body-main-top">
+					<p class="main-box1-name">水民</p>
+					<p class="main-box1-num">9号</p>
+				</div>
+				<ul class="choice">
+					<li class="choice-1"></li>
+					<li class="choice-2"></li>
+					<li class="choice-3"></li>
+					<li class="choice-4"></li>
+				</ul>
+			</div>
+			<div class="body-main-box">
+				<div class="body-main-top">
+					<p class="main-box1-name">水民</p>
+					<p class="main-box1-num">10号</p>
+				</div>
+				<ul class="choice">
+					<li class="choice-1"></li>
+					<li class="choice-2"></li>
+					<li class="choice-3"></li>
+					<li class="choice-4"></li>
+				</ul>
+			</div>
+			<div class="body-main-box">
+				<div class="body-main-top">
+					<p class="main-box1-name">水民</p>
+					<p class="main-box1-num">11号</p>
+				</div>
+				<ul class="choice">
+					<li class="choice-1"></li>
+					<li class="choice-2"></li>
+					<li class="choice-3"></li>
+					<li class="choice-4"></li>
+				</ul>
+			</div>
+			<div class="body-main-box">
+				<div class="body-main-top">
+					<p class="main-box1-name">水民</p>
+					<p class="main-box1-num">12号</p>
+				</div>
+				<ul class="choice">
+					<li class="choice-1"></li>
+					<li class="choice-2"></li>
+					<li class="choice-3"></li>
+					<li class="choice-4"></li>
+				</ul>
+			</div>
+		</div>
+		<div class="footer">
+			<div class="footer-p">
+				<p>投死</p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
