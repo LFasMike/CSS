@@ -1,5 +1,5 @@
 .roll-box{
-	width: 100%;
+	width: 1920px;
 	height: 60rem;
 	text-align: center;
 	background-image: url("images/backgroundimg.png");
@@ -35,13 +35,13 @@
 	}
 .main{
 	margin: 0 auto;
-	max-width: 196rem;
-	overflow: auto;
+	width: 196rem;
+	background-color: #fafafa;
 }
 	.main-top{
 		width: 120rem;
 		height: 45rem;
-		margin: 0 auto;
+		padding-left: 360px;
 	}
 		.main-top-left{
 			float: left;
@@ -86,7 +86,7 @@
 				}
 	.main-middle{
 		width: 120rem;
-		margin: 0 auto;
+		padding-left: 360px;
 	}
 		.main-middle h2{
 			padding-top: 5rem;
@@ -134,7 +134,7 @@
 		}
 	.main-bottom{
 		width: 120rem;
-		margin: 0 auto;
+		margin-left: 360px;
 		text-align: center;
 	}
 		.main-bottom h2{
@@ -147,7 +147,7 @@
 			font-size: 0;
 		}
 			.main-bottom-list li{
-				margin-right: 30px;
+				margin: 0 15px;
 				width: 270px;
 				height: 370px;
 				display: inline-block;
@@ -175,7 +175,7 @@
 		}
 	.main-footer-top{
 		width: 120rem;
-		margin: 0 auto;
+		margin-left: 360px;
 		text-align: center;
 		overflow:hidden;
 	}
@@ -186,23 +186,23 @@
 		}
 		.main-footer-top ul{
 			margin-top: 67px;
-			width: 1200px;
+			width: 1198px;
 			height: 178px;
 			font-size: 0;
 			display: inline-block;
 			background-color: #fff;
-			box-shadow: 2px 0px 2px red, -2px 0px 2px yellow, 0 -2px 2px blue, 0 2px 2px green;
 		}
 		.main-footer-top li{
-			width: 240px;
+			width: 239.6px;
 			line-height: 178px;
 			display: inline-block;
 		}
 		.main-footer-top img{
 			vertical-align: middle;
 		}
-		.main-footer-im{
-			box-shadow: 2px 0px 2px red, -2px 0px 2px yellow, 0 -2px 2px blue, 0 2px 2px green;
+		.main-footer-im img{
+			padding: 63px 50px;
+			box-shadow: 0px 0px 12px 0px #dddddd;
 		}
 	.main-footer-bottom{
 		margin-top: 90px;
@@ -241,6 +241,8 @@
 			display: inline-block;
 			font-size: 15px;
 			color: #999;
-			border-bottom: 1px solid #26a26f;
+			border-bottom: 1px solid #fff;
 		}
-
+		.main-footer-bottom li:hover{
+			border-bottom-color: #26a26f;
+		}
