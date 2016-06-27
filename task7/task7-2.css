@@ -1,0 +1,84 @@
+.mainbody{
+	width: 100%;
+	background-color: #fafafa;
+	overflow: hidden;
+}
+	.mainbody-top{
+		height: 248px;
+	}
+	.mainbody-middle{
+		margin: 0 auto;
+		width: 1200px;
+	}
+		.mainbody-middle-top{
+			margin-top: 34px;
+			margin-bottom: 30px;
+			font-size: 16px;
+		}
+			.mainbody-middle-top span{
+				color: #3fb582;
+			}
+		.mainbody-middle-left{
+			float: left;
+			width: 300px;
+			height: 708px;
+			text-align: center;
+			background-color: #fff;
+			box-shadow: 0px 0px 12px 0px #dddddd;
+		}
+			.mainbody-middle-left h2{
+				margin-top: 20px;
+				padding-bottom: 25px;
+				font-weight: bold;
+				border-bottom: 1px solid #e6e6e6;
+			}
+			.mainbody-middle-left ul{
+				margin-top: 21.5px;
+				font-size: 0;
+			}
+			.mainbody-middle-left li{
+				padding-left: 135px;
+				line-height: 51px;
+				font-size: 14px;
+				text-align: left;
+				color: #53bb8c;
+				background-image: url("images/kongxin.png");
+				background-repeat: no-repeat;
+				background-position: 120px 21px;
+			}
+			.mainbody-middle-left li:hover{
+				color: #ff650e;
+				background-image: url("images/shixin.png");
+			}
+		.mainbody-middle-right{
+			float: right;
+			margin-bottom: 230px;
+			width: 870px;
+			height: 1100px;
+			background-color: #fff;
+			box-shadow: 0px 0px 12px 0px #dddddd;
+		}
+			.mainbody-middle-Rtop{
+				height: 155px;
+				border-bottom: 1px solid #e6e6e6;
+				overflow: hidden;
+			}
+			.mainbody-middle-right p{
+				padding-top: 38px;
+				padding-left: 65px;
+				width: 740px;
+				font-size: 14px;
+				line-height: 28px;
+				text-indent: 28px;
+				color: #999;
+			}
+			.mainbody-middle-Rtop p{
+					padding: 30px 0;
+					width: 805px;
+					font-size: 14px;
+					line-height: 28px;
+				}
+			.mainbody-middle-Rtop img{
+					float: left;
+					padding: 57px 37px 66px 84px;
+				}
