@@ -100,7 +100,8 @@
 			margin-bottom: 9.5rem;
 		}
 		.main-middle li{
-			display: inline-block; 
+			height: 70px;
+			display: inline-block;
 		}
 		.main-middle span{
 			width: 70px;
@@ -110,15 +111,17 @@
 			color: #29b078;
 			line-height: 70px;
 			text-align: center;
+			vertical-align: middle;
 			background-color: #fff;
 			border-radius: 35px;
 			box-shadow: 1px 1px 1px #a1a1a1;		
 		}
 		.main-middle p{
 			width: 15rem;
-			padding: 0 2.525rem 1.5rem 1.5rem;
+			padding: 1.2rem 2.525rem 0 1.5rem;
 			display: inline-block;
 			vertical-align: middle;
+			height: 58px;
 			line-height: 2.2rem;
 			font-size: 1.5rem;
 		}
