@@ -1,0 +1,133 @@
+*{
+	margin: 0; 
+	padding: 0;
+ }
+body{
+　　　　font: normal 100% Helvetica, Arial, sans-serif;
+　　}
+#box-warp{
+		margin: 0 auto;
+    }
+img{
+		max-width: 100%;
+	}
+.box-header{
+		width: 100%;
+		height: 5em;
+		background-color: #29bde0;
+		border-bottom: 0.1em solid #ffffff;
+		text-align: center; 
+		position: fixed;
+		top: 0;
+    	clear: both;  	
+   	}
+.icon-home{
+	width: 51px;
+	margin-top: 1em;
+	margin-left: 0.5em;
+	float: left;
+}
+.icon-info{
+	width: 40px;
+	margin-top: 1em;
+	margin-right: 0.5em;
+	float: right;
+}
+p{
+	margin-top: 0.6em;
+	font-size: 2em;
+	color: #ffffff;
+	display: inline-block;	
+}
+.box-main{
+		width: 100%;
+		margin-top: 5.1em;	
+		background-color: #29bde0;
+		text-align: center; 
+    	overflow:hidden;  	
+   	}
+.box-icon-logo{
+	width: 100%;
+}
+.icon-logo{
+	width: 205px;
+	margin-top: 1em;
+	display: inline-block;	
+	}
+.text-content-tips{
+	width: 73%;	
+	font-size: 1em;
+	font-weight: bold;
+	color: #ffc865;
+	text-align: justify;
+	}
+.box-content-more{
+	margin-top: 1.2em;
+	margin-bottom: 0.8em;
+}
+.box-content-more p{
+	width: 73%;	
+	font-size: 0.9em;
+	text-align: justify;
+}
+.box-info{
+	width: 100%;
+	text-align: center; 
+}
+.box-info-day1{
+	padding-bottom: 1em;
+	border-bottom: 0.1em solid #a6a6a6;
+}
+.text-info-day1{
+	color: #515151;
+	font-size: 1em;
+	float: left;
+	margin-left: 13.5%
+}
+.text-info-time1{
+	color: #dddddd;
+	font-size: 0.9em;
+	float: right;
+	margin-right: 15.5%;
+}
+.text-info-allday1{
+	width: 100%;
+	overflow:hidden;
+}
+.text-info-allday1 p{
+	width: 73%;	
+	font-size: 0.85em;
+	color: #a6a6a6;
+	text-align: justify;
+}
+.box-footer{
+	width: 100%;
+	overflow:hidden;
+	position: fixed;
+	bottom: 0;
+	background-color: rgba(153,233,240,0.7);
+}
+.box-again{
+	width: 40%;
+	float: left;
+	margin-left: 5%;
+	font-size: 0.5em;
+	text-align: center;
+	background-color: #f66f6f;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	padding-bottom: 0.7em;
+	border-radius: 0.5em;
+}
+.box-update{
+	width: 40%;
+	float: right;
+	margin-right: 5%;
+	font-size: 0.5em;
+	text-align: center;
+	background-color: #fbb435;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	padding-bottom: 0.7em;
+	border-radius: 0.5em;
+}
