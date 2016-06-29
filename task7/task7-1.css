@@ -8,13 +8,12 @@
 	.roll-left{
 		float: left;
 		margin-top: 25.3rem;
-		margin-left: 29.4rem;
-		display: inline-block;
+		margin-left: 3.4rem;
 	}
 	.roll-right{
 		float: right;
 		margin-top: 25.3rem;
-		margin-right: 29.4rem;
+		margin-right: 3.4rem;
 	}
 	.roll-box p{
 		color: #fff;
@@ -31,18 +30,17 @@
 	}
 	.roll-bottom{
 		margin-top: 8rem;
-		display: inline-block;
 	}
 .main{
 	margin: 0 auto;
 	width: 100%;
-	text-align: center;
+	text-align: center;l
 	background-color: #fafafa;
 }
 	.main-top{
+		margin: 0 auto;
 		width: 120rem;
-		height: 45rem;
-		display: inline-block;
+		overflow: hidden;
 	}
 		.main-top-left{
 			float: left;
@@ -56,59 +54,60 @@
 				width: 22rem;
 				text-align: center;
 			}
-			.main-top-left span{
-				margin-top: 3rem;
-				font-size: 2rem;
+			.main-top-left h2{
+				padding-top: 3rem;
+				font-size: 18px;
 			}
 			.main-top-left p{
-				margin-top: 2rem;
-				font-size: 1.5rem;
+				margin-top: 3rem;
+				font-size: 1.6rem;
+				color: #d3d3d3;
 			}
 		.main-top-right{
 			float: left;
 			width: 26rem;
-			height: 43rem;
 			overflow: hidden;
 		}
 			.people-num{
 				margin-top: 16rem;
 				padding-top: 6rem;
 				padding-left: 5.5rem;
-				height: 17rem;
-				border-left: 0.1rem dashed black;
+				height: 19rem;
+				border-left: 0.1rem dashed #d3d3d3;
 			}
-				.people-num p{
-					line-height: 1.7rem;
-					font-size: 1.7rem;
-				}
 				.people-num h2{
-					margin-top: .5rem;
-					margin-bottom: 2rem;
+					line-height: 1.7rem;
+					font-size: 1.8rem;
+					color: #26a26f;
+				}
+				.people-num p{
+					margin-top: 2rem;
+					margin-bottom: 3rem;
+					font-size: 1.8rem;
+					color: #d3d3d3;
 				}
 	.main-middle{
+		margin: 0 auto;
 		width: 120rem;
-		display: inline-block;
 	}
 		.main-middle h2{
 			padding-top: 5rem;
-			text-align: center;
-			font-size: 2rem;
-			font-weight: 700;
+			font-size: 18px;
 			line-height: 11.5rem;
 		}
 		.main-middle ul{
-			font-size: 0;
 			margin-bottom: 9.5rem;
+			overflow: hidden;
 		}
 		.main-middle li{
+			float: left;
 			height: 70px;
-			display: inline-block;
 		}
 		.main-middle span{
 			width: 70px;
 			height: 70px;
-			display: inline-block;
-			font-size: 1.7rem;
+			display: block;
+			font-size: 15px;
 			color: #29b078;
 			line-height: 70px;
 			text-align: center;
@@ -120,81 +119,73 @@
 		.main-middle p{
 			width: 15rem;
 			padding: 1.2rem 2.525rem 0 1.5rem;
-			display: inline-block;
-			vertical-align: middle;
-			height: 58px;
+			color: #d3d3d3;
 			line-height: 2.2rem;
-			font-size: 1.5rem;
+			font-size: 1.4rem;
 		}
 		.main-middle img{
+			margin-top: 22px;
 			width: 28px;
 			height: 26px;
 			padding-right: 2.5rem;
-			display: inline-block;
 			vertical-align: middle;
 		}
 	.main-bottom{
+		margin: 0 auto;
 		width: 120rem;
-		display: inline-block;
 	}
 		.main-bottom h2{
-			line-height: 7rem;
-			font-size: 2rem;
-			font-weight: 700;
+			margin-top: 30px;
+			font-size: 18px;
 		}
 		.main-bottom-list{
-			margin-top: 120px;
-			font-size: 0;
+			margin-top: 70px;
+			overflow: hidden;
 		}
 			.main-bottom-list li{
+				float: left;
 				margin: 0 15px;
 				width: 270px;
 				height: 370px;
-				display: inline-block;
 				background-color: #fff;
 				box-shadow: 1px 1px 1px #eeeded;
 			}
 			.main-bottom-list img{
 				margin-top: 15px;
-				width: 108px;
-				height: 108px;
 			}
 			.main-bottom-list h3{
 				margin-top: 45px;
 				margin-bottom: 30px;
-				font-size: 2rem;
+				font-size: 18px;
 			}
 			.main-bottom-list p{
+				margin-left: 32.5px;
 				width: 205px;
-				font-size: 1.5rem;
-				display: inline-block;
+				font-size: 16px;
+				color: #d3d3d3;
 				text-align: left;
 			}
 		.main-bottom-img{
 			margin-top: 25px;
 		}
 	.main-footer-top{
-		width: 120rem;
-		display: inline-block;
+		margin: 0 auto;
+		width: 1200px;
 	}
 		.main-footer-top h2{
 			margin-top: 130px;
-			font-size: 2rem;
-			font-weight: 700;
+			font-size: 18px;
 		}
 		.main-footer-top ul{
 			margin-top: 67px;
-			width: 1198px;
 			height: 178px;
-			font-size: 0;
-			display: inline-block;
 			background-color: #fff;
 			box-shadow: 0px 0px 7px 0px #dddddd;
 		}
 		.main-footer-top li{
-			width: 239.6px;
+			float: left;
+			width: 240px;
 			line-height: 178px;
-			display: inline-block;
 		}
 		.main-footer-top img{
 			vertical-align: middle;
@@ -205,25 +196,23 @@
 		}
 	.main-footer-bottom{
 		margin-top: 90px;
-		padding-bottom: 10px;
+		padding-bottom: 14px;
 		width: 100%;
-		text-align: center;
 		background-color: #fff;
 	}
 		.main-footer-box{
+			margin: 0 auto;
 			width: 1200px;
-			display: inline-block;
+			overflow: hidden;
 		}
 		.main-footer-box h2{
 			padding-top: 20px;
-			font-size: 2rem;
-			font-weight: 700;
-			text-align: center;
+			font-size: 18px;
 		}
 		.main-footer-box ul{
+			margin-top: 24px;
 			width: 1200px;
 			height: 45px;
-			font-size: 0;
 		}
 		.main-footer-box span{
 			width: 5px;
@@ -238,10 +227,8 @@
 			float: left;
 			margin-right: 30px;
 			width: 90px;
-			height: 45px;
-			line-height: 45px;
-			display: inline-block;
-			font-size: 15px;
+			line-height: 30px;
+			font-size: 14px;
 			color: #999;
 			border-bottom: 1px solid #fff;
 		}
