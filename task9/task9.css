@@ -1,0 +1,371 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+	font-size: 62.5%;
+	font-family: "Microsoft YaHei", serif;
+}
+body{
+	width: 100%;
+}
+ul{
+	list-style-type: none;
+}
+.header{
+	width: 100%;
+	height: 40px;
+	background-color: #1d7ad9;
+}
+	.header ul{
+		margin: 0 auto;
+		width: 1200px;
+		overflow: hidden;
+	}
+	.header li{
+		height: 40px;
+		line-height: 40px;
+		color: #fff;
+	}
+	.header-left{
+		float: left;
+		font-size: 14px;
+	}
+	.register{
+		float: right;
+		width: 104px;
+		font-size: 16px;
+		background-color: #fff;
+		text-align: center;
+		transition: width 2s;
+	}
+	.login{
+		float: right;
+		width: 54px;
+		font-size: 16px;
+		text-align: center;
+		border-left: 1px solid #fff;
+		transition: width 2s;
+	}
+	.login a{
+		color: #fff;
+	}
+/*设置登录和注册的动画效果*/
+	a:visited,
+	a:link{
+		text-decoration: none;
+	}
+	a:hover,
+	a:active{
+		text-decoration: underline;
+	}
+	.register:hover{
+		width: 54px;
+		background-color: #1d7ad9;
+		cursor: pointer;
+	}
+	.register:hover a.register-a{
+		color: #fff;
+	}
+	.login:hover {
+		width: 104px;
+		background-color: #fff;
+		cursor: pointer;
+	}
+	.login:hover a.login-a{
+		color: #333;
+	}
+.nav{
+	width: 100%;
+	height: 100px;
+	background-color: #f9f9f9;
+	overflow: hidden;
+}
+	.nav ul{
+		margin: 0 auto;
+		width: 1200px;
+	}
+	.nav-list{
+		margin-top: 27px;
+		margin-left: 60px;
+		float: right;
+		font-size: 16px;
+		padding: 15px 17px;
+		border-radius: 4px;
+		background-color: #fff;
+		box-shadow: 4px 3px 6px -3px #dddddd;
+	}
+	.nav li:hover{
+		color: #fff;
+		background-color: #1d7ad9;
+		cursor: pointer;
+	}
+/*预设第一个选项被选中*/
+	.nav-fitst{
+		color: #fff;
+		background-color: #1d7ad9;
+	}
+.subnav ul{
+		margin: 0 auto;
+		width: 1200px;
+		overflow: hidden;
+	}
+	.subnav-list{
+		float: right;
+		margin-top: 40px;
+		width: 160px;
+		color: #ccc;
+		border-top: 5px solid #ccc;
+		font-size: 18px;
+		line-height: 86px;
+	}
+	.subnav span{
+		position: relative;
+		top: -48px;
+		left: 62px;
+		width: 24px;
+		height: 24px;
+		font-size: 12px;
+		line-height: 24px;
+		text-align: center;
+		color: #fff;
+		background-color: #ccc;
+		border-radius: 12px;
+		display: inline-block;
+	}
+	.subnav li:hover{
+		color: #ff7f02;
+		border-top: 5px solid #ff7f02;
+		cursor: pointer;
+	}
+	.subnav li:hover span{
+		background-color: #ff7f02;
+	}
+/*预设第一个选项被选中*/
+	.subnav-first{
+		color: #ff7f02;
+		border-top: 5px solid #ff7f02;
+	}
+	.subnav-first span{
+		background-color: #ff7f02;
+	}
+.content{
+	margin: 0 auto;
+	padding-top: 26px;
+	width: 1200px;
+}
+	.content-thick{
+		float: left;
+		width: 4px;
+		height: 22px;
+		display: inline-block;
+		background-color: #1d7ad9;
+	}
+	.content p{
+		float: left;
+		margin-left: 7px;
+		font-size: 22px;
+		line-height: 22px;
+	}
+	.content-body{
+		width: 100%;
+		overflow: hidden;
+	}
+	.content-body > ul:first-of-type{
+		margin-top: 16px;
+		border: 1px solid #e8e8e8;
+		border-radius: 6px 6px 0 0; 
+		overflow: hidden;
+	}
+	.box-title{
+		height: 45px;
+		line-height: 45px;
+		background-color: #f2f2f2;
+		border-bottom: 1px solid #ccc;
+	}
+	.box-title img{
+		padding: 0 9px 0 10px;
+	}
+	.box-title p{
+		font-size: 18px;
+		line-height: 45px;
+		color: #1d7ad9;
+	}
+	.box-choice,
+	.box-size,
+	.box-material{
+		padding-left: 45px;
+		background-color: #fbfcff;
+		border-bottom: 1px solid #ccc;
+		overflow: hidden;
+	}
+	.choice1,
+	.choice2,
+	.choice3{
+		margin-right: 60px;
+		font-size: 18px;
+	}
+	.choice1 input[type=radio] + span,
+	.choice2 input[type=radio] + span,
+	.choice3 input[type=radio] + span{
+		position: relative;
+		top: 3px;
+		right: 13px;
+		width: 18px;
+		height: 18px;
+		background-image: url("images/kongxin.png");
+		background-repeat: no-repeat;
+		border-radius: 9px;
+		display: inline-block;
+	}
+	.choice1 input[type=radio]:checked + span,
+	.choice2 input[type=radio]:checked + span,
+	.choice3 input[type=radio]:checked + span{
+		background-image: url("images/shixin.png");
+	}
+/*	.choice1:first-of-type span,
+	.choice2:first-of-type span,
+	.choice3:first-of-type span{
+		background-image: url("images/shixin.png");
+	}*/
+	.box-choice{
+		line-height: 86px;
+	}
+	.choice1,
+	.choice3{
+		float: left;
+	}
+	.hidden{
+		opacity: 0;
+	}
+	.box-choice > li:nth-of-type(4),
+	.box-size > li:nth-of-type(3),
+	.box-material > li:nth-of-type(5){
+		float: right;
+	}
+	.box-size > li:nth-of-type(3),
+	.box-material > li:nth-of-type(5){
+		position: absolute;
+		top: 51.5px;
+		right: 0px;
+	}
+	select::-ms-expand{
+		display: none;
+	}
+	.box-select{
+		margin-right: 17px;
+		padding: 10px 35px 10px 15px;
+		font-size: 14px;
+		color: #999;
+		border: solid 1px #e8e8e8;
+		appearance: none;
+		-moz-appearance: none;
+		-webkit-appearance: none;  /* For Chrome */
+		background-image: url("images/triangles.png");
+		background-repeat: no-repeat;
+		background-position: 90% center;
+	}
+	.choice2{
+		line-height: 70.5px;
+	}
+	.box-size,
+	.box-material{
+		position: relative;
+	}
+	.input-box{
+		width: 68px;
+		height: 28px;
+	}
+	.choice2 em{
+		font-style: normal;
+	}
+	.choice2 label{
+		margin-right: 50px;
+	}
+	.choice3{
+		line-height: 141px;
+	}
+	.btn{
+		height: 285px;
+		text-align: center;
+		vertical-align: middle;
+	}
+	.btn button{
+		margin-top: 142px;
+		width: 179px;
+		height: 46px;
+		color: #fff;
+		font-size: 24px;
+		background-color: #e15053;
+		border: none;
+		border-radius: 6px;
+	}
+.footer-top{
+	margin-top: 54px;
+	width: 100%;
+	color: #999;
+	background-color: #f9f9f9;
+}
+	.footer-box{
+		margin: 0 auto;
+		width: 1200px;
+		height: 206px;
+		overflow: hidden;
+	}
+	.footer-left1,
+	.footer-left2{
+		float: left;
+	}
+	.footer-left1 h2{
+		margin-top: 70px;
+		font-size: 18px;
+	}
+	.footer-left2{
+		margin-top: 56px;
+		margin-left: 182px;
+	}
+	.footer-left2 ul{
+		width: 291px;
+		overflow: hidden;
+	}
+	.footer-left2 li{
+		float: left;
+		margin-top: 18px;
+		width: 97px;
+		font-size: 14px;
+	}
+	.a-bottom:hover, .a-bottom:active{
+		text-decoration: none;
+	}
+	li.footer-left2-choice:first-of-type{
+		color: #1d7ad9;
+	}
+	li.footer-left2-choice:hover{
+		color: #1d7ad9;
+		cursor: pointer;
+	}
+	.footer-rignt1,
+	.footer-rignt2{
+		float: right;
+	}
+	.footer-rignt1{
+		margin-top: 57px;
+	}
+	.footer-rignt2{
+		margin-top: 53px;
+		font-size: 14px;
+	}
+	.footer-rignt2 li{
+		margin-top: 12px;
+		width: 152px;
+	}
+.footer-bottom{
+	margin: 0 auto;
+	background-color: #1d7ad9;
+}
+	.footer-bottom p{
+		text-align: center;
+		font-size: 12px;
+		line-height: 30px;
+		color: #fff;
+	}
